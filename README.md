@@ -53,7 +53,7 @@ cross-env：跨环境设置环境变量包
 
 wait-on：等待资源，此处用来等待url可访问
 
-**src文件夹下依次建立文件background.ts 和 preload.ts**
+**src文件夹下依次建立文件background.ts 和 preload.js**
 
 background.ts
 
@@ -98,7 +98,7 @@ app.on("window-all-closed", () => {
 
 preload.js
 
-```ts
+```javascript
 window.addEventListener('DOMContentLoaded', () => {
     const replaceText = (selector, text) => {
       const element = document.getElementById(selector)
