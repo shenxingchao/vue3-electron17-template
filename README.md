@@ -1,7 +1,14 @@
 # Vue 3 + Typescript + Vite + electron17
-**需要的拿走**
+**最精简的模板需要的拿走**
 
 nodejs版本 > 16.3.2
+
+使用yarn
+```
+yarn
+yarn electron:serve
+yarn electron:build
+```
 
 [快速开始](https://www.electronjs.org/zh/docs/latest/tutorial/quick-start)
 
@@ -182,3 +189,7 @@ export default defineConfig({
   }
 }
 ```
+
+至此搭建完成
+
+运行yarn electron:serve 或者 yarn electron:build查看效果
